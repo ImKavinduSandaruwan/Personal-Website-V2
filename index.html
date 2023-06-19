@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Kavindu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">kavindu<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello Folks</span>
+                    <h1>I'm <span class="multitext"></span></h1>
+                    <p>Programmer and Web developer. Studing Software Engineering at University of Westminster (Undergraduate).</p>
+                    <div class="btns">
+                        <button>download CV</button>
+                        <button>hire me</button>
+                    </div>
+                </div>
+                <div class="cols1">
+                    <div class="imgbox">
+                        <img src="" id="spash">
+                        <img src="programmer.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["coder", "dev"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+
+</body>
+</html>
